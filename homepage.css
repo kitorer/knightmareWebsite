@@ -1,25 +1,28 @@
 
 .header {
   background-color: #f1f1f1;
-  padding: none;
+  padding:none;
   text-align: center;
   margin:top;
+  width:max;
 }
 
 #navbar {
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
+  width:max;
 }
 
 #navbar a {
-  float: right;
-  display: block;
+
+  display: inline-block;
   color: #f2f2f2;
-  text-align: right;
-  padding: 14px 40px;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
   font-size: 14px;
-  margin-top;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #navbar a:hover {
@@ -33,7 +36,8 @@
 }
 
 .content {
-  padding: 16px;
+  padding: 0;
+  width:max;
 }
 /*sticky nav bar*/
 .sticky {
@@ -43,7 +47,7 @@
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 /*----------------------------------------------------------------------------------*/
